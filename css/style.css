@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("Fitness.png");
+    background-position-x: 48%;
+    background-position-y: 36%;
+    font-family: 'Roboto', sans-serif;
+}
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 47px;
+    top: 12px;
+}
+.left img{
+    width: 111px;
+    filter: invert(101%);
+}
+.navbar{
+    display: block;
+    width: 45%;
+    margin: 48px auto;
+    /* border: 2px solid red; */
+}
+.navbar li{
+    /* border: 2px solid red; */
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    font-size: 22px;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+.navbar li a:hover , .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+.right{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    right: 183px;
+    top: 48px;
+}
+.btn{
+    background-color: black;
+    margin: 2px 0px;
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.container{
+    height: 450px;
+    border: 3px solid white;
+    width: 800px;
+    margin: 52px 62px;
+    border-radius: 15px;
+}
+.container h2{
+    color: white;
+    text-align: center;
+    margin-top: 64px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+.container button{
+    display: block;
+    width: 64%;
+    margin:20px auto;
+}
